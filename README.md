@@ -34,3 +34,9 @@ Output should be like
 2024-09-25 23:22:14.166 | INFO     | tasks:get_stock_price_task:38 - 2024-09-25 Stock price collect task is done
 2024-09-25 23:22:19.085 | INFO     | __main__:<module>:51 - Scheduler shut down successfully.
 ```
+
+
+## Run with Docker
+```
+docker-compose up -d
+```
