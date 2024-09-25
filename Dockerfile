@@ -11,3 +11,4 @@ RUN poetry config virtualenvs.create false \
   && poetry install
 
 COPY . /code
+RUN python -m database.session
